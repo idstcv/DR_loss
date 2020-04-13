@@ -17,14 +17,14 @@ and add the class into ``init.py''.
 
 2. Change the focal loss to dr loss in
 ```
-/maskrcnn-benchmark/maskrcnn_benchmark/modeling/rpn/retinanet/loss.py
+maskrcnn-benchmark/maskrcnn_benchmark/modeling/rpn/retinanet/loss.py
 ```
 
 3. Run RetinaNet with the configurations in ``configs/dr_retina''
 
 ## Model:
 
-model | lr sched| multi-scale training | mAP(mimival) | mAP (test-dev) | link
+model | lr sched| multi-scale training | mAP(minival) | mAP (test-dev) | link
 -- | -- | -- | -- | -- | -- 
 Dr_Retina_R-50-FPN | 1x | No | 37.4 | 37.6 | [Google Drive](https://drive.google.com/file/d/1bLNfqlQ3zpAKUihbZY-NKPe0pYAReUGy/view?usp=sharing)
 Dr_Retina_R-101-FPN | 2x | Yes | 41.5 | 41.7 | [Google Drive](https://drive.google.com/file/d/1hMg_-epThR32DQtzCzpdhDTiriob9ir9/view?usp=sharing)
