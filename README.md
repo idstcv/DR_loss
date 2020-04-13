@@ -22,7 +22,7 @@ maskrcnn-benchmark/maskrcnn_benchmark/modeling/rpn/retinanet/loss.py
 
 3. Run RetinaNet with the configurations in ``configs/dr_retina''
 
-## Model:
+## Models:
 
 model | lr sched| multi-scale training | mAP(minival) | mAP (test-dev) | link
 -- | -- | -- | -- | -- | -- 
