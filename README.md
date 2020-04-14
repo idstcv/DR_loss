@@ -1,5 +1,5 @@
 # DR Loss
-PyTorch Implementation for CVPR'20: "DR Loss: Improving Object Detection by Distributional Ranking"
+PyTorch Implementation for our CVPR'20 paper: "DR Loss: Improving Object Detection by Distributional Ranking"
 
 
 ## Requirements
