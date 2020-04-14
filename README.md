@@ -5,7 +5,7 @@ PyTorch Implementation for CVPR'20: "DR Loss: Improving Object Detection by Dist
 ## Requirements
 * Python 3.7
 * PyTorch 1.1
-* [maskrcnn_benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)
+* [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)
 
 ## Usage:
 
@@ -13,14 +13,14 @@ PyTorch Implementation for CVPR'20: "DR Loss: Improving Object Detection by Dist
 ```
 maskrcnn-benchmark/maskrcnn_benchmark/layers/sigmoid_dr_loss.py
 ```
-and add the class into ``init.py''.
+and add the class into "init.py".
 
-2. Change the focal loss to dr loss in
+2. Change the focal loss in RetinaNet to the dr loss at
 ```
 maskrcnn-benchmark/maskrcnn_benchmark/modeling/rpn/retinanet/loss.py
 ```
 
-3. Run RetinaNet with the configurations in ``configs/dr_retina''
+3. Run RetinaNet with the configurations in "configs/dr_retina".
 
 ## Models:
 
